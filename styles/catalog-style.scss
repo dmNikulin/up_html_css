@@ -165,3 +165,37 @@ img {
     line-height: 17px;
     color: #6F6E6E;
 }
+
+.main {
+    background: #F7F7F7;
+    width: 100%;
+    height: 770px;
+}
+
+.gallery-carousel {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__back {
+        padding: 10.4px 17px;
+        background-color: #c6c6c6;
+    }
+    &__next {
+        padding: 10.4px 17px;
+        background-color: #c6c6c6;
+    }
+    &__icon-back {
+        fill: black;
+    }
+    &__icon-back:hover {
+        fill: $accentColor;
+    }
+    &__icon-next {
+        fill: black;
+    }
+    &__icon-next:hover {
+        fill: $accentColor;
+    }
+}

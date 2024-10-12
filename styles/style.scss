@@ -63,26 +63,6 @@ img {
     font-size: 12px;
 }
 
-.top-head {
-    background-color: #F8F3F4;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.top-head__heading {
-    display: block;
-    color: $accentColor;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29px;
-}
-
-.top-head__elements {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .breadcrumbs {
     display: block;
 }
@@ -190,7 +170,6 @@ h4 {
     font-size: 14px;
     line-height: 17px;
     color: #6F6E6E;
-    ;
 }
 
 .fashion {

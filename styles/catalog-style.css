@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #222;
+  padding: 18px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.nav img {
+  cursor: pointer;
+}
+
+.counter {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top: -20px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #F16D7F;
+  border-radius: 10px;
+}
+
+.counter__text {
+  color: #fff;
+  font-size: 12px;
+}
+
+.breadcrumbs {
+  display: block;
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  color: #636363;
+}
+
+.breadcrumbs__link__site {
+  font-weight: 700;
+  color: #F16D7F;
+}
+
+.top-head {
+  background-color: #F8F3F4;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.top-head__heading {
+  display: block;
+  color: #F16D7F;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.top-head__elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.dark-overlay {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7));
+}
+
+.menu-active {
+  position: sticky;
+  float: right;
+  z-index: 10;
+  width: 235px;
+  background-color: white;
+  box-shadow: -6px 4px 35px rgba(160, 160, 160, 0.4745098039);
+}
+
+.container__menu {
+  margin-top: 33px;
+  margin-left: 33px;
+}
+
+.menu-man,
+.menu-woman,
+.menu-kids {
+  margin-top: 20px;
+}
+
+.menu-kids {
+  padding-bottom: 20px;
+}
+
+.menu-text {
+  color: #F16D7F;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.menu-list a:hover {
+  text-decoration: underline;
+}
+
+.menu-list {
+  list-style: none;
+  margin-top: 12px;
+  margin-left: 21px;
+}
+
+.menu-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-list a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}/*# sourceMappingURL=catalog-style.css.map */

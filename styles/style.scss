@@ -469,7 +469,6 @@ h2 {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    flood-color: #222;
     margin-top: 30px;
 }
 
@@ -718,16 +717,17 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        gap: 32px;
+    }
+    .productForm {
+        width: 310px;
     }
     .card1,
     .card2,
     .card3 {
-        width: 320px;
+        width: 310px;
     }
     .card4 {
-        width: 320px;
+        width: 310px;
         height: 111px;
     }
     .productCard__card1,
@@ -736,7 +736,7 @@ footer {
     .productCard__card4,
     .productCard__card5,
     .productCard__card6 {
-        width: 320px;
+        width: 310px;
     }
     .cardText {
         padding-top: 98px;
@@ -753,7 +753,7 @@ footer {
         padding-bottom: 30px;
     }
     .productCard {
-        max-width: 320px;
+        max-width: 310px;
     }
     .features-align {
         flex-direction: column;

@@ -201,7 +201,7 @@ menu {
   width: 360px;
   box-sizing: border-box;
   position: relative;
-  z-index: 10;
+  z-index: 7;
 }
 .filter__content {
   background-color: #fff;
@@ -553,7 +553,6 @@ menu {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  flood-color: #222;
   margin-top: 30px;
 }
 
@@ -749,6 +748,146 @@ footer {
   }
   .subscribe__right {
     padding-bottom: 100px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 43px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .top-head__heading {
+    margin: 0 auto;
+  }
+  .top-head__elements {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .container {
+    max-width: 360px;
+  }
+  .nav {
+    gap: 0px;
+  }
+  .menu-profile {
+    display: none;
+  }
+  .menu-basket {
+    display: none;
+  }
+  .counter {
+    display: none;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  .h1__subtitle {
+    font-size: 20px;
+  }
+  .h1__changed {
+    margin: 150px auto;
+    max-width: 236px;
+  }
+  .mainPic {
+    display: none;
+  }
+  .filter {
+    width: 90px;
+  }
+  .filter__summary svg {
+    width: 37.5px;
+    height: 25px;
+  }
+  .filter__heading {
+    display: none;
+  }
+  .filter-sort {
+    gap: 0px;
+  }
+  .sort__heading {
+    font-size: 12px;
+  }
+  .productForm {
+    width: 310px;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    width: 310px;
+  }
+  .card4 {
+    width: 310px;
+    height: 111px;
+  }
+  .productCard__card1,
+  .productCard__card2,
+  .productCard__card3,
+  .productCard__card4,
+  .productCard__card5,
+  .productCard__card6 {
+    width: 310px;
+  }
+  .cardText {
+    padding-top: 98px;
+  }
+  .cardText__uniq {
+    padding-top: 30px;
+  }
+  .productGrid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+  .productCard {
+    max-width: 310px;
+  }
+  .features-align {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+  }
+  .features__card {
+    padding: 0;
+  }
+  .subscribe {
+    background-size: cover;
+  }
+  .subscribe-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 60px;
+  }
+  .subscribe__left {
+    padding-top: 64px;
+  }
+  .subscribe__right {
+    padding-bottom: 100px;
+    width: 340px;
+  }
+  .subscribe__form {
+    width: 310px;
+  }
+  .subscribe__right {
+    width: 310px;
+    text-align: center;
+  }
+  .subscribe__right input {
+    width: 160px;
+  }
+  .subscribe__right__description {
+    font-size: 14px;
+  }
+  .subscribe__form {
+    margin-top: 20px;
   }
   .footer {
     display: flex;

@@ -201,12 +201,12 @@ menu {
 }
 .filter__content {
   background-color: #fff;
-  padding: 0 16px 16px 16px;
+  padding: 16px 16px 16px 16px;
+  box-shadow: 10px 10px 15px 0px rgba(155, 155, 155, 0.21);
 }
 .filter[open] {
   width: 360px;
   background: #fff;
-  box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
 }
 .filter[open] .filter__heading {
   color: #F16D7F;
